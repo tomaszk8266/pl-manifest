@@ -46,6 +46,7 @@
     <project path="external/libcxx" name="LMODroid/platform_external_libcxx" groups="pdk" remote="lmodroid" />
     <project path="external/libnl" name="LMODroid/platform_external_libnl" groups="pdk" remote="lmodroid" />
     <project path="external/libvpx" name="LMODroid/platform_external_libvpx" groups="pdk" remote="lmodroid" />
+    <project path="external/libremobileos-fonts/AlbertSans" name="LMODroid/platform_external_libremobileos-fonts_AlbertSans" remote="lmodroid" />
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
     <project path="external/setupcompat" name="LMODroid/platform_external_setupcompat" groups="pdk" remote="lmodroid" />
     <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
@@ -136,7 +137,7 @@
     <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" remote="lmodroid" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.66" />
+    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.76" />
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
 
     <!-- System -->
